@@ -1,0 +1,9 @@
+-I/home/major/c_zeuch/hauptseminar/houghparameter/include
+-I/home/major/c_zeuch/hauptseminar/hough/include
+-I/home/major/c_zeuch/hauptseminar/video_cam/include
+-I/home/major/c_zeuch/hauptseminar/video_file_hdl/include
+-I/home/major/c_zeuch/hauptseminar/timemeasurement/include
+-I/home/major/c_zeuch/hauptseminar/cvmat2qimage/include
+-o
+/home/major/c_zeuch/hauptseminar/build/qt_opencv_tool/src/moc_hough_param_window.cpp
+/home/major/c_zeuch/hauptseminar/qt_opencv_tool/src/hough_param_window.cpp

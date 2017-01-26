@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../video_file_hdl/include/video_file_hdl.hpp
+opencv2/highgui/highgui.hpp
+../video_file_hdl/include/opencv2/highgui/highgui.hpp
+opencv2/opencv.hpp
+../video_file_hdl/include/opencv2/opencv.hpp
+
+/home/major/c_zeuch/hauptseminar/video_file_hdl/src/video_file_hdl.cpp
+video_file_hdl.hpp
+/home/major/c_zeuch/hauptseminar/video_file_hdl/src/video_file_hdl.hpp
+algorithm
+-
+iostream
+-
+iterator
+-
+vector
+-
+fstream
+-
+

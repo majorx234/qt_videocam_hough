@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../liblibcvmat2qimage.a  CMakeFiles/libcvmat2qimage.dir/src/cvmat2qimage.cpp.o CMakeFiles/libcvmat2qimage.dir/include/moc_cvmat2qimage.cpp.o CMakeFiles/libcvmat2qimage.dir/src/moc_cvmat2qimage.cpp.o CMakeFiles/libcvmat2qimage.dir/libcvmat2qimage_automoc.cpp.o
+/usr/bin/ranlib ../liblibcvmat2qimage.a

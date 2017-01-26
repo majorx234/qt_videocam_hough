@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../hough/include/hough.hpp
+opencv2/highgui/highgui.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/highgui/highgui.hpp
+../hough/include/opencv2/highgui/highgui.hpp
+opencv2/opencv.hpp
+../hough/include/opencv2/opencv.hpp
+houghparams.hpp
+../hough/include/houghparams.hpp
+
+../houghparameter/include/houghparams.hpp
+
+/home/major/c_zeuch/hauptseminar/hough/src/hough.cpp
+hough.hpp
+/home/major/c_zeuch/hauptseminar/hough/src/hough.hpp
+

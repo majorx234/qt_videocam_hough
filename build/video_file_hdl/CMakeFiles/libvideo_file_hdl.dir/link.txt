@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../liblibvideo_file_hdl.a  CMakeFiles/libvideo_file_hdl.dir/src/video_file_hdl.cpp.o
+/usr/bin/ranlib ../liblibvideo_file_hdl.a

@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../video_cam/include/video_cam.hpp
+opencv2/highgui/highgui.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/highgui/highgui.hpp
+../video_cam/include/opencv2/highgui/highgui.hpp
+opencv2/opencv.hpp
+../video_cam/include/opencv2/opencv.hpp
+string
+-
+
+/home/major/c_zeuch/hauptseminar/video_cam/src/video_cam.cpp
+video_cam.hpp
+/home/major/c_zeuch/hauptseminar/video_cam/src/video_cam.hpp
+iostream
+-
+fstream
+-
+stdio.h
+-
+unistd.h
+-
+fcntl.h
+-
+sys/ioctl.h
+-
+libv4l1-videodev.h
+-
+

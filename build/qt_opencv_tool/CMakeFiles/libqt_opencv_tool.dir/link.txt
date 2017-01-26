@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../liblibqt_opencv_tool.a  CMakeFiles/libqt_opencv_tool.dir/src/mainwindow.cpp.o CMakeFiles/libqt_opencv_tool.dir/src/hough_param_window.cpp.o CMakeFiles/libqt_opencv_tool.dir/include/moc_mainwindow.cpp.o CMakeFiles/libqt_opencv_tool.dir/src/moc_mainwindow.cpp.o CMakeFiles/libqt_opencv_tool.dir/include/moc_hough_param_window.cpp.o CMakeFiles/libqt_opencv_tool.dir/src/moc_hough_param_window.cpp.o CMakeFiles/libqt_opencv_tool.dir/libqt_opencv_tool_automoc.cpp.o
+/usr/bin/ranlib ../liblibqt_opencv_tool.a

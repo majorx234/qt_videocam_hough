@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../liblibvideo_cam.a  CMakeFiles/libvideo_cam.dir/src/video_cam.cpp.o
+/usr/bin/ranlib ../liblibvideo_cam.a

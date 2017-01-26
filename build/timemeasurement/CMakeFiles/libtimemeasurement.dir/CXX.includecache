@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../timemeasurement/include/timemeasurement.h
+chrono
+-
+
+/home/major/c_zeuch/hauptseminar/timemeasurement/src/timemeasurement.cpp
+timemeasurement.h
+/home/major/c_zeuch/hauptseminar/timemeasurement/src/timemeasurement.h
+chrono
+-
+

@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../hough/include/hough.hpp
+opencv2/highgui/highgui.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/highgui/highgui.hpp
+../hough/include/opencv2/highgui/highgui.hpp
+opencv2/opencv.hpp
+../hough/include/opencv2/opencv.hpp
+houghparams.hpp
+../hough/include/houghparams.hpp
+
+../houghparameter/include/houghparams.hpp
+
+../video_cam/include/video_cam.hpp
+opencv2/highgui/highgui.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/highgui/highgui.hpp
+../video_cam/include/opencv2/highgui/highgui.hpp
+opencv2/opencv.hpp
+../video_cam/include/opencv2/opencv.hpp
+string
+-
+
+/home/major/c_zeuch/hauptseminar/opencv_video_hough_test/src/main.cpp
+opencv2/highgui/highgui.hpp
+/home/major/c_zeuch/hauptseminar/opencv_video_hough_test/src/opencv2/highgui/highgui.hpp
+opencv2/opencv.hpp
+/home/major/c_zeuch/hauptseminar/opencv_video_hough_test/src/opencv2/opencv.hpp
+iostream
+-
+video_cam.hpp
+/home/major/c_zeuch/hauptseminar/opencv_video_hough_test/src/video_cam.hpp
+hough.hpp
+/home/major/c_zeuch/hauptseminar/opencv_video_hough_test/src/hough.hpp
+
